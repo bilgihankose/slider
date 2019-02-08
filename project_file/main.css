@@ -1,0 +1,90 @@
+* {
+font-family: 'Volkhov', serif;
+font-size: 12px;
+}
+.main{
+width: 210px;
+height: 400px;
+background-color: #f7f7f7;
+display: block;
+line-height: 0; 
+}
+.discount{
+display: inline-block;
+width: 22%;
+height: 30px;
+float:left;
+margin-top: 20px;
+text-align: center;
+}
+img{
+ margin-left: 27px; 
+}
+
+.row-one {
+    display: inline-block;
+    background: #c5151f;
+    color: white;
+    width: 100%;
+    height: 100%;
+    line-height: normal;
+    
+    
+  }
+  .likeCount {
+      color: #c5151f;
+    display: block;
+    background: #fafbfd;
+    width: 100%;
+    height: 100%;
+    line-height: normal;
+  }
+  
+  .name{
+    overflow-wrap: break-word;
+      color: #050505;
+      text-align: center;
+      line-height: normal;
+      font-weight: bold;
+      text-shadow: 1px 0 #050505;
+      letter-spacing: 1px;
+  }
+
+  .land-region-art {
+    overflow-wrap: break-word;
+    color: #949494;
+    text-align: center;
+    line-height: normal;
+    margin-top: 10px;
+  }
+.price{
+   width: 49%;
+   display: inline-block;
+      color: #050505;
+      text-align: right;
+      line-height: normal;
+      margin-top: 48px;
+      font-weight: bold;
+      font-size: 18px;
+}
+.price-old-price{
+
+width: 49%;
+   display: inline-block;
+   color:#949494;
+      text-align: left;
+      line-height: normal;
+      margin-top: 13px;
+      font-weight: bold;  
+      text-decoration: line-through;
+      font-size: 18px;
+}
+
+.basePrice{
+    width: 100%;
+   display: inline-block;
+      color: #949494;
+      text-align: center;
+      line-height: normal;
+      margin-top: 8px;
+}
